@@ -24,24 +24,26 @@
     <body>
         <main>
             <div class="container">
-                <div class="clock">
-                    <div class="h"></div>
-                    <div class="colon">:</div>
-                    <div class="m"></div>
-                    <div class="colon">:</div>
-                    <div class="s"></div>
-                    <div class="colon">:</div>
+                <div class="center">
+                    <div class="clock">
+                        <div class="h time"></div>
+                        <div class="colon1">:</div>
+                        <div class="m time"></div>
+                        <div class="colon2">:</div>
+                        <div class="s time"></div>
+                    </div>
+
+                    <div class="alarm">
+                        <i class="fa-solid fa-bell" style="margin-right: 0.4rem;"></i>
+                        <span class="output"></span>
+                    </div>
+
+                    <form>
+                        <input type="text" placeholder="00:00">
+                        <input type="button" class="set" value="Set alarm">
+                    </form>
                 </div>
-                <div class="alarm">
-                    <i class="fa-solid fa-bell"></i>
-                    <span class="output"></span>
-                </div>
-                <form>
-                    <input type="text" placeholder="00:00">
-                    <input type="button" class="set" value="Set alarm">
-                </form>
             </div>
         </main>
-
     </body>
 </html> 

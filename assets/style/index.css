@@ -1,1 +1,71 @@
 @import url(./reset.css);
+
+main {
+    background-color: #202126;
+}
+
+.container {
+    height: 100vh;
+    color: #fff;
+    display: flex;
+}
+
+.center {
+    margin: auto;
+}
+
+.clock {
+    font-size: 10rem;
+    /*width: 100%;*/
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+.time {
+    width: 11rem;
+    height: 11rem;
+}
+.colon {
+    margin: 0 5px;
+    line-height: 11rem;
+}
+
+.alarm {
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    /*width: 100%;*/
+}
+
+form {
+    height: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 9rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    padding: 0 0.9rem;
+    border: 1px solid #4e4e4e;
+    background-color: #37383d;
+    border-radius: 4rem;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-right: 1.6rem;
+}
+
+input[type=button] {
+    width: 9rem;
+    height: 2.5rem;
+    text-align: center;
+    border: 1px solid #4e4e4e;
+    background-color: #019d5d;
+    border-radius: 4rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
