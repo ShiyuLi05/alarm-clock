@@ -8,9 +8,40 @@
         <meta name="keywords"content="html,css,web,web developmet,seo">
         <title>Alarm Clock</title>
         <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="./assets/script/index.js" defer></script>
     </head>
     <body>
+        <main>
+            <div class="container">
+                <div class="clock">
+                    <div class="h"></div>
+                    <div class="colon">:</div>
+                    <div class="m"></div>
+                    <div class="colon">:</div>
+                    <div class="s"></div>
+                    <div class="colon">:</div>
+                </div>
+                <div class="alarm">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="output"></span>
+                </div>
+                <form>
+                    <input type="text" placeholder="00:00">
+                    <input type="button" class="set" value="Set alarm">
+                </form>
+            </div>
+        </main>
 
     </body>
 </html> 
